@@ -1,0 +1,23 @@
+#cf {
+    position: relative;
+    width: 25px;
+    height: 38px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+#cf img {
+    position: absolute;
+    left: 0;
+    transition: opacity 1s;
+   
+   
+}
+
+#cf img.bottom:hover {
+    opacity: 0;
+    
+}
+
+
+
